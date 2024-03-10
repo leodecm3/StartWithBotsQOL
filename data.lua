@@ -1,8 +1,6 @@
 --data.lua
 
 require("fusion-construction-robot")
-require("prototypes.category")
-require("prototypes.item-groups")
 require("InefficientSpeedModule")
 
 
