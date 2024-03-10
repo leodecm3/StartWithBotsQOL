@@ -1,6 +1,7 @@
 --data.lua
 
 require("fusion-construction-robot") 
+require("prototypes.module.god-module")
 
 
 data:extend({
