@@ -1,14 +1,18 @@
+
+--copy data info from the speed module 1--
+local copySpeedModuleOne = data.raw.module["speed-module"]
+
 --[[Item]]--
 data:extend({
   {
     type = "module",
     name = "InefficientSpeedModule",
     icon = "__StartWithBotsQOL__/graphics/icons/modules/InefficientSpeedModule.png",
-	icon_size = 32,
-    subgroup = "a-god",
-    category = "god",
+	  icon_size = 32,
+    subgroup = copySpeedModuleOne.subgroup,
+    category = copySpeedModuleOne.category,
     tier = 1,
-    order = "c[god]-a[god]",
+    order = copySpeedModuleOne.order,
     stack_size = 5000,
     default_request_amount = 10,
     effect = {speed = {bonus = 1.0}, consumption = {bonus = 100.0},productivity = {bonus = 0.00},pollution = {bonus = 10.0}},
@@ -24,7 +28,7 @@ data:extend({
     energy_required = 1,
     ingredients =
     {
-	  {"iron-plate", 1}
+	  {"wood", 10000}
     },
     result_count = 1,
     result = "InefficientSpeedModule"
