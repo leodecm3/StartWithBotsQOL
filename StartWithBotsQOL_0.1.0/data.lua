@@ -139,7 +139,7 @@ data:extend({
 		subgroup = "logistic-network",
 		order = "a[robot]-b[construction-robot]-a[fusion-construction-robot]",
 		place_result = "fusion-construction-robot",
-		stack_size = 500
+		stack_size = 1000
 	},
 	
 	{
