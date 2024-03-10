@@ -11,7 +11,7 @@ data:extend({
     order = "c[god]-a[god]",
     stack_size = 5000,
     default_request_amount = 10,
-    effect = {speed = {bonus = 10.25}, consumption = {bonus = -2.25},productivity = {bonus = 0.01},pollution = {bonus = -2.25}},
+    effect = {speed = {bonus = 1.0}, consumption = {bonus = 100.0},productivity = {bonus = 0.00},pollution = {bonus = 10.0}},
   },
   })
 
