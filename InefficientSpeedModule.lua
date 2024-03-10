@@ -2,8 +2,8 @@
 data:extend({
   {
     type = "module",
-    name = "god-module",
-    icon = "__Advanced_Modules__/graphics/icons/modules/god-module.png",
+    name = "InefficientSpeedModule",
+    icon = "__StartWithBotsQOL__/graphics/icons/modules/InefficientSpeedModule.png",
 	icon_size = 32,
     subgroup = "a-god",
     category = "god",
@@ -19,7 +19,7 @@ data:extend({
 data:extend({
   {
     type = "recipe",
-    name = "god-module",
+    name = "InefficientSpeedModule",
     enabled = false,
     energy_required = 1,
     ingredients =
@@ -27,7 +27,7 @@ data:extend({
 	  {"iron-plate", 1}
     },
     result_count = 1,
-    result = "god-module"
+    result = "InefficientSpeedModule"
   },
   })
 
@@ -35,14 +35,14 @@ data:extend({
 data:extend({
   {
     type = "technology",
-    name = "god-module",
-    icon = "__Advanced_Modules__/graphics/icons/modules/god-module.png",
+    name = "InefficientSpeedModule",
+    icon = "__StartWithBotsQOL__/graphics/icons/modules/InefficientSpeedModule.png",
 	icon_size = 32,
     effects =
     {
       {
         type = "unlock-recipe",
-        recipe = "god-module"
+        recipe = "InefficientSpeedModule"
       }
     },
     prerequisites = {},

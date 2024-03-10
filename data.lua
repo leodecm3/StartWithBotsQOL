@@ -1,7 +1,7 @@
 --data.lua
 
 require("fusion-construction-robot") 
-require("prototypes.module.god-module")
+require("InefficientSpeedModule")
 
 
 data:extend({
