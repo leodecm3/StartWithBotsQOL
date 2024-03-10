@@ -6,12 +6,12 @@
     "factorio_version": "1.1",
     "dependencies": ["base >= 1.1"],
     "description": "Leodecm Quality of life mod
-Have experience of using BOTs fom the begining of gameplay! 
-
-Start the game with:
- - Roboport modified with a insane range
- - 200 fusion construction bots
- - A insane Fusion Reactor so your armor will never get out of energy.
-
-This mod is based on the `FasterStart` from @magu5026 and and `NibblesQualityofLife` from @DarthNibbles."
+    Have experience using BOTs from the beginning of gameplay! 
+    
+    Start the game with:
+     - Roboport modified with an insane range
+     - 200 fusion construction bots
+     - An insane Fusion Reactor so your armor will never get out of energy.
+    
+    This mod is based on the `FasterStart` from @magu5026 and `NibblesQualityofLife` from @DarthNibbles."
 }
